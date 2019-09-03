@@ -1,0 +1,22 @@
+c:\users\tazhang\documents\visual studio 2012\Projects\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\bin\Debug\winform_SeerAgv_MapDisplay.exe.config
+c:\users\tazhang\documents\visual studio 2012\Projects\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\bin\Debug\winform_SeerAgv_MapDisplay.exe
+c:\users\tazhang\documents\visual studio 2012\Projects\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\bin\Debug\winform_SeerAgv_MapDisplay.pdb
+c:\users\tazhang\documents\visual studio 2012\Projects\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\bin\Debug\CSkin.dll
+c:\users\tazhang\documents\visual studio 2012\Projects\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\bin\Debug\CSkin.xml
+c:\users\tazhang\documents\visual studio 2012\Projects\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\obj\Debug\winform_SeerAgv_MapDisplay.csprojResolveAssemblyReference.cache
+c:\users\tazhang\documents\visual studio 2012\Projects\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\obj\Debug\winform_SeerAgv_MapDisplay.Properties.Resources.resources
+c:\users\tazhang\documents\visual studio 2012\Projects\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\obj\Debug\winform_SeerAgv_MapDisplay.csproj.GenerateResource.Cache
+c:\users\tazhang\documents\visual studio 2012\Projects\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\obj\Debug\winform_SeerAgv_MapDisplay.exe
+c:\users\tazhang\documents\visual studio 2012\Projects\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\obj\Debug\winform_SeerAgv_MapDisplay.pdb
+c:\users\tazhang\documents\visual studio 2012\Projects\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\bin\Debug\Newtonsoft.Json.dll
+c:\users\tazhang\documents\visual studio 2012\Projects\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\obj\Debug\winform_SeerAgv_MapDisplay.Form1.resources
+C:\Users\email\Desktop\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\bin\Debug\winform_SeerAgv_MapDisplay.exe.config
+C:\Users\email\Desktop\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\obj\Debug\winform_SeerAgv_MapDisplay.exe
+C:\Users\email\Desktop\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\obj\Debug\winform_SeerAgv_MapDisplay.pdb
+C:\Users\email\Desktop\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\bin\Debug\winform_SeerAgv_MapDisplay.exe
+C:\Users\email\Desktop\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\bin\Debug\winform_SeerAgv_MapDisplay.pdb
+C:\Users\email\Desktop\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\bin\Debug\CSkin.xml
+C:\Users\email\Desktop\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\obj\Debug\winform_SeerAgv_MapDisplay.csprojResolveAssemblyReference.cache
+C:\Users\email\Desktop\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\obj\Debug\winform_SeerAgv_MapDisplay.Form1.resources
+C:\Users\email\Desktop\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\obj\Debug\winform_SeerAgv_MapDisplay.Properties.Resources.resources
+C:\Users\email\Desktop\winform_SeerAgv_MapDisplay\winform_SeerAgv_MapDisplay\obj\Debug\winform_SeerAgv_MapDisplay.csproj.GenerateResource.Cache
