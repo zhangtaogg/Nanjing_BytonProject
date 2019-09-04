@@ -11,6 +11,7 @@ using BytonOpcService.UaClient;
 using BytonOpcService.DBOperator;
 using System.Threading;
 using ApplicationLog;
+using WebApiSelfHost;
 
 namespace BytonOpcService
 {
@@ -48,6 +49,8 @@ namespace BytonOpcService
         {
             try
             {
+                OPCWeAPi.StartPushClient();
+
                 Th_SystemWatcher = new Thread(Func_SystemWatcher);
                 Th_SystemWatcher.IsBackground = true;
                 Th_SystemWatcher.Start();
@@ -55,6 +58,8 @@ namespace BytonOpcService
                 Th_HeartBeat = new Thread(Func_HeartBeat);
                 Th_HeartBeat.IsBackground = true;
                 Th_HeartBeat.Start();
+
+
             }
             catch (Exception ex)
             { }
@@ -66,7 +71,7 @@ namespace BytonOpcService
 
         private void Func_SystemWatcher()
         {
-            bool InsertHistory = false;
+            bool InsertHistory = false;//决定是否插入历史表
             while (true)
             {
                 try

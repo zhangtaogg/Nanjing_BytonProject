@@ -1,0 +1,380 @@
+2019-08-06 17:00:16:412 The underlying provider failed on Open.
+2019-08-06 17:00:16:412 断开与OPC Server的连接
+2019-08-06 17:00:20:241 Bad
+2019-08-06 17:00:23:663 Bad
+2019-08-06 17:00:27:085 Bad
+2019-08-06 17:00:30:508 Bad
+2019-08-06 17:00:32:304 The underlying provider failed on Open.
+2019-08-06 17:00:32:304 尝试与OPC Server建立连接
+2019-08-06 17:00:32:320 The underlying provider failed on Open.
+2019-08-06 17:00:32:320 与OPC Server建立连接成功
+2019-08-06 17:00:33:930 Bad
+2019-08-06 17:00:36:930 Value cannot be null.
+Parameter name: first
+2019-08-06 17:00:36:930 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:00:39:931 Bad
+2019-08-06 17:00:42:931 Object reference not set to an instance of an object.
+2019-08-06 17:00:42:931 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:00:45:931 Bad
+2019-08-06 17:00:48:931 Object reference not set to an instance of an object.
+2019-08-06 17:00:51:932 Bad
+2019-08-06 17:01:21:319 The underlying provider failed on Open.
+2019-08-06 17:01:21:319 断开与OPC Server的连接
+2019-08-06 17:01:25:007 Bad
+2019-08-06 17:01:28:430 Bad
+2019-08-06 17:01:31:852 Bad
+2019-08-06 17:01:35:274 Bad
+2019-08-06 17:01:37:180 The underlying provider failed on Open.
+2019-08-06 17:01:37:180 尝试与OPC Server建立连接
+2019-08-06 17:01:37:180 The underlying provider failed on Open.
+2019-08-06 17:01:37:180 与OPC Server建立连接成功
+2019-08-06 17:01:38:696 Bad
+2019-08-06 17:01:41:697 Value cannot be null.
+Parameter name: first
+2019-08-06 17:01:41:697 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:01:44:697 Bad
+2019-08-06 17:01:47:697 Object reference not set to an instance of an object.
+2019-08-06 17:01:50:697 Bad
+2019-08-06 17:01:53:698 Object reference not set to an instance of an object.
+2019-08-06 17:01:53:698 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:01:56:698 Bad
+2019-08-06 17:02:26:180 The underlying provider failed on Open.
+2019-08-06 17:02:26:180 断开与OPC Server的连接
+2019-08-06 17:02:29:774 Bad
+2019-08-06 17:02:33:197 Bad
+2019-08-06 17:02:36:619 Bad
+2019-08-06 17:02:40:041 Bad
+2019-08-06 17:02:42:057 The underlying provider failed on Open.
+2019-08-06 17:02:42:057 尝试与OPC Server建立连接
+2019-08-06 17:02:43:463 Bad
+2019-08-06 17:02:46:886 Bad
+2019-08-06 17:02:50:308 Bad
+2019-08-06 17:02:53:745 Bad
+2019-08-06 17:02:57:168 Bad
+2019-08-06 17:02:57:402 The underlying provider failed on Open.
+2019-08-06 17:02:57:402 与OPC Server建立连接成功
+2019-08-06 17:03:00:418 Value cannot be null.
+Parameter name: first
+2019-08-06 17:03:00:418 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:03:03:428 Bad
+2019-08-06 17:03:06:428 Value cannot be null.
+Parameter name: first
+2019-08-06 17:03:06:428 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:03:09:429 Bad
+2019-08-06 17:03:12:429 Object reference not set to an instance of an object.
+2019-08-06 17:03:12:429 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:03:15:429 Bad
+2019-08-06 17:03:46:323 The underlying provider failed on Open.
+2019-08-06 17:03:46:323 断开与OPC Server的连接
+2019-08-06 17:03:50:136 Bad
+2019-08-06 17:03:53:558 Bad
+2019-08-06 17:03:56:981 Bad
+2019-08-06 17:04:00:403 Bad
+2019-08-06 17:04:02:210 The underlying provider failed on Open.
+2019-08-06 17:04:02:210 尝试与OPC Server建立连接
+2019-08-06 17:04:02:210 The underlying provider failed on Open.
+2019-08-06 17:04:02:210 与OPC Server建立连接成功
+2019-08-06 17:04:03:835 Bad
+2019-08-06 17:04:06:835 Value cannot be null.
+Parameter name: first
+2019-08-06 17:04:06:835 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:04:09:835 Bad
+2019-08-06 17:04:12:836 Object reference not set to an instance of an object.
+2019-08-06 17:04:15:836 Bad
+2019-08-06 17:04:18:837 Object reference not set to an instance of an object.
+2019-08-06 17:04:18:837 Value cannot be null.
+Parameter name: first
+2019-08-06 17:04:21:837 Bad
+2019-08-06 17:04:51:259 The underlying provider failed on Open.
+2019-08-06 17:04:51:259 断开与OPC Server的连接
+2019-08-06 17:04:54:919 Bad
+2019-08-06 17:04:58:344 Bad
+2019-08-06 17:05:01:762 Bad
+2019-08-06 17:05:05:196 Bad
+2019-08-06 17:05:07:165 The underlying provider failed on Open.
+2019-08-06 17:05:07:165 尝试与OPC Server建立连接
+2019-08-06 17:05:07:165 The underlying provider failed on Open.
+2019-08-06 17:05:07:165 与OPC Server建立连接成功
+2019-08-06 17:05:08:618 Bad
+2019-08-06 17:05:11:618 Object reference not set to an instance of an object.
+2019-08-06 17:05:11:618 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:05:14:619 Bad
+2019-08-06 17:05:17:619 Object reference not set to an instance of an object.
+2019-08-06 17:05:17:619 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:05:20:619 Bad
+2019-08-06 17:05:23:620 Object reference not set to an instance of an object.
+2019-08-06 17:05:23:620 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:05:26:620 Bad
+2019-08-06 17:05:56:175 The underlying provider failed on Open.
+2019-08-06 17:05:56:175 断开与OPC Server的连接
+2019-08-06 17:06:00:098 Bad
+2019-08-06 17:06:03:534 Bad
+2019-08-06 17:06:06:970 Bad
+2019-08-06 17:06:10:398 Bad
+2019-08-06 17:06:12:070 The underlying provider failed on Open.
+2019-08-06 17:06:12:070 尝试与OPC Server建立连接
+2019-08-06 17:06:13:821 Bad
+2019-08-06 17:06:17:258 Bad
+2019-08-06 17:06:20:671 Bad
+2019-08-06 17:06:24:105 Bad
+2019-08-06 17:06:27:433 The underlying provider failed on Open.
+2019-08-06 17:06:27:433 与OPC Server建立连接成功
+2019-08-06 17:06:27:529 Bad
+2019-08-06 17:06:30:537 Object reference not set to an instance of an object.
+2019-08-06 17:06:30:537 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:06:33:540 Bad
+2019-08-06 17:06:36:552 Value cannot be null.
+Parameter name: first
+2019-08-06 17:06:39:562 Bad
+2019-08-06 17:06:42:570 Object reference not set to an instance of an object.
+2019-08-06 17:06:45:576 Bad
+2019-08-06 17:07:16:258 The underlying provider failed on Open.
+2019-08-06 17:07:16:258 断开与OPC Server的连接
+2019-08-06 17:07:19:884 Bad
+2019-08-06 17:07:23:306 Bad
+2019-08-06 17:07:26:743 Bad
+2019-08-06 17:07:30:165 Bad
+2019-08-06 17:07:32:119 The underlying provider failed on Open.
+2019-08-06 17:07:32:119 尝试与OPC Server建立连接
+2019-08-06 17:07:32:119 The underlying provider failed on Open.
+2019-08-06 17:07:32:119 与OPC Server建立连接成功
+2019-08-06 17:07:33:588 Bad
+2019-08-06 17:07:36:588 Value cannot be null.
+Parameter name: first
+2019-08-06 17:07:36:588 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:07:39:588 Bad
+2019-08-06 17:07:42:588 Value cannot be null.
+Parameter name: first
+2019-08-06 17:07:45:589 Bad
+2019-08-06 17:07:48:589 Object reference not set to an instance of an object.
+2019-08-06 17:07:51:589 Bad
+2019-08-06 17:08:20:721 The underlying provider failed on Open.
+2019-08-06 17:08:20:722 断开与OPC Server的连接
+2019-08-06 17:08:24:655 Bad
+2019-08-06 17:08:28:090 Bad
+2019-08-06 17:08:31:524 Bad
+2019-08-06 17:08:34:950 Bad
+2019-08-06 17:08:36:607 The underlying provider failed on Open.
+2019-08-06 17:08:36:607 尝试与OPC Server建立连接
+2019-08-06 17:08:36:607 The underlying provider failed on Open.
+2019-08-06 17:08:36:607 与OPC Server建立连接成功
+2019-08-06 17:08:38:373 Bad
+2019-08-06 17:08:41:373 Value cannot be null.
+Parameter name: first
+2019-08-06 17:08:44:373 Bad
+2019-08-06 17:08:47:373 Object reference not set to an instance of an object.
+2019-08-06 17:08:50:374 Bad
+2019-08-06 17:08:53:374 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:08:56:374 Bad
+2019-08-06 17:09:25:161 The underlying provider failed on Open.
+2019-08-06 17:09:25:161 断开与OPC Server的连接
+2019-08-06 17:09:29:059 Bad
+2019-08-06 17:09:32:481 Bad
+2019-08-06 17:09:35:910 Bad
+2019-08-06 17:09:39:337 Bad
+2019-08-06 17:09:42:773 Bad
+2019-08-06 17:09:46:211 Bad
+2019-08-06 17:09:49:633 Bad
+2019-08-06 17:09:53:056 Bad
+2019-08-06 17:09:56:478 Bad
+2019-08-06 17:09:59:900 Bad
+2019-08-06 17:10:03:324 Bad
+2019-08-06 17:10:05:762 The underlying provider failed on Open.
+2019-08-06 17:10:05:762 尝试与OPC Server建立连接
+2019-08-06 17:10:06:746 Bad
+2019-08-06 17:10:10:169 Bad
+2019-08-06 17:10:13:591 Bad
+2019-08-06 17:10:17:014 Bad
+2019-08-06 17:10:20:436 Bad
+2019-08-06 17:10:21:108 The underlying provider failed on Open.
+2019-08-06 17:10:21:108 与OPC Server建立连接成功
+2019-08-06 17:10:23:858 Bad
+2019-08-06 17:10:26:858 Object reference not set to an instance of an object.
+2019-08-06 17:10:29:858 Bad
+2019-08-06 17:10:32:859 Object reference not set to an instance of an object.
+2019-08-06 17:10:32:859 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:10:35:859 Bad
+2019-08-06 17:10:38:859 Object reference not set to an instance of an object.
+2019-08-06 17:10:41:125 BadSessionClosed
+2019-08-06 17:11:09:951 The underlying provider failed on Open.
+2019-08-06 17:11:09:951 断开与OPC Server的连接
+2019-08-06 17:11:13:796 Bad
+2019-08-06 17:11:17:218 Bad
+2019-08-06 17:11:20:640 Bad
+2019-08-06 17:11:24:062 Bad
+2019-08-06 17:11:25:828 The underlying provider failed on Open.
+2019-08-06 17:11:25:828 尝试与OPC Server建立连接
+2019-08-06 17:11:25:828 The underlying provider failed on Open.
+2019-08-06 17:11:25:828 与OPC Server建立连接成功
+2019-08-06 17:11:27:484 Bad
+2019-08-06 17:11:30:485 Object reference not set to an instance of an object.
+2019-08-06 17:11:30:485 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:11:33:485 Bad
+2019-08-06 17:11:36:485 Object reference not set to an instance of an object.
+2019-08-06 17:11:39:486 Bad
+2019-08-06 17:11:42:486 Object reference not set to an instance of an object.
+2019-08-06 17:11:42:486 Value cannot be null.
+Parameter name: first
+2019-08-06 17:11:45:486 Bad
+2019-08-06 17:12:14:437 The underlying provider failed on Open.
+2019-08-06 17:12:14:437 断开与OPC Server的连接
+2019-08-06 17:12:18:156 Bad
+2019-08-06 17:12:21:578 Bad
+2019-08-06 17:12:25:000 Bad
+2019-08-06 17:12:28:422 Bad
+2019-08-06 17:12:30:314 The underlying provider failed on Open.
+2019-08-06 17:12:30:314 尝试与OPC Server建立连接
+2019-08-06 17:12:30:314 The underlying provider failed on Open.
+2019-08-06 17:12:30:314 与OPC Server建立连接成功
+2019-08-06 17:12:31:845 Bad
+2019-08-06 17:12:34:848 Value cannot be null.
+Parameter name: first
+2019-08-06 17:12:34:848 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:12:37:849 Bad
+2019-08-06 17:12:40:849 Object reference not set to an instance of an object.
+2019-08-06 17:12:40:849 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:12:43:850 Bad
+2019-08-06 17:12:46:850 Object reference not set to an instance of an object.
+2019-08-06 17:12:49:850 Bad
+2019-08-06 17:13:18:879 The underlying provider failed on Open.
+2019-08-06 17:13:18:879 断开与OPC Server的连接
+2019-08-06 17:13:22:520 Bad
+2019-08-06 17:13:25:942 Bad
+2019-08-06 17:13:29:365 Bad
+2019-08-06 17:13:32:788 Bad
+2019-08-06 17:13:34:741 The underlying provider failed on Open.
+2019-08-06 17:13:34:741 尝试与OPC Server建立连接
+2019-08-06 17:13:34:741 The underlying provider failed on Open.
+2019-08-06 17:13:34:741 与OPC Server建立连接成功
+2019-08-06 17:13:36:211 Bad
+2019-08-06 17:13:39:225 Value cannot be null.
+Parameter name: first
+2019-08-06 17:13:39:225 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:13:42:226 Bad
+2019-08-06 17:13:45:226 Object reference not set to an instance of an object.
+2019-08-06 17:13:48:227 Bad
+2019-08-06 17:13:51:227 Object reference not set to an instance of an object.
+2019-08-06 17:13:51:227 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:13:54:227 Bad
+2019-08-06 17:14:23:284 The underlying provider failed on Open.
+2019-08-06 17:14:23:284 断开与OPC Server的连接
+2019-08-06 17:14:26:909 Bad
+2019-08-06 17:14:30:331 Bad
+2019-08-06 17:14:33:754 Bad
+2019-08-06 17:14:37:176 Bad
+2019-08-06 17:14:39:144 The underlying provider failed on Open.
+2019-08-06 17:14:39:144 尝试与OPC Server建立连接
+2019-08-06 17:14:40:598 Bad
+2019-08-06 17:14:44:036 Bad
+2019-08-06 17:14:47:458 Bad
+2019-08-06 17:14:50:880 Bad
+2019-08-06 17:14:54:302 Bad
+2019-08-06 17:14:54:490 The underlying provider failed on Open.
+2019-08-06 17:14:54:490 与OPC Server建立连接成功
+2019-08-06 17:14:57:506 Object reference not set to an instance of an object.
+2019-08-06 17:14:57:506 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:15:00:506 Bad
+2019-08-06 17:15:03:518 Value cannot be null.
+Parameter name: first
+2019-08-06 17:15:06:518 Bad
+2019-08-06 17:15:09:519 Object reference not set to an instance of an object.
+2019-08-06 17:15:09:519 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:15:12:519 Bad
+2019-08-06 17:15:43:382 The underlying provider failed on Open.
+2019-08-06 17:15:43:382 断开与OPC Server的连接
+2019-08-06 17:15:47:226 Bad
+2019-08-06 17:15:50:648 Bad
+2019-08-06 17:15:54:070 Bad
+2019-08-06 17:15:57:508 Bad
+2019-08-06 17:15:59:243 The underlying provider failed on Open.
+2019-08-06 17:15:59:243 尝试与OPC Server建立连接
+2019-08-06 17:15:59:243 The underlying provider failed on Open.
+2019-08-06 17:15:59:243 与OPC Server建立连接成功
+2019-08-06 17:16:00:930 Bad
+2019-08-06 17:16:03:940 Value cannot be null.
+Parameter name: first
+2019-08-06 17:16:03:940 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:16:06:940 Bad
+2019-08-06 17:16:09:941 Object reference not set to an instance of an object.
+2019-08-06 17:16:12:941 Bad
+2019-08-06 17:16:15:941 Object reference not set to an instance of an object.
+2019-08-06 17:16:18:942 Bad
+2019-08-06 17:16:47:897 The underlying provider failed on Open.
+2019-08-06 17:16:47:897 断开与OPC Server的连接
+2019-08-06 17:16:51:617 Bad
+2019-08-06 17:16:55:039 Bad
+2019-08-06 17:16:58:461 Bad
+2019-08-06 17:17:01:883 Bad
+2019-08-06 17:17:03:769 The underlying provider failed on Open.
+2019-08-06 17:17:03:769 尝试与OPC Server建立连接
+2019-08-06 17:17:03:769 The underlying provider failed on Open.
+2019-08-06 17:17:03:769 与OPC Server建立连接成功
+2019-08-06 17:17:05:316 Bad
+2019-08-06 17:17:08:316 Value cannot be null.
+Parameter name: first
+2019-08-06 17:17:08:316 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:17:11:316 Bad
+2019-08-06 17:17:14:317 Object reference not set to an instance of an object.
+2019-08-06 17:17:17:317 Bad
+2019-08-06 17:17:20:317 Object reference not set to an instance of an object.
+2019-08-06 17:17:20:317 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:17:23:318 Bad
+2019-08-06 17:17:52:305 The underlying provider failed on Open.
+2019-08-06 17:17:52:305 断开与OPC Server的连接
+2019-08-06 17:17:55:993 Bad
+2019-08-06 17:17:59:415 Bad
+2019-08-06 17:18:02:847 Bad
+2019-08-06 17:18:06:270 Bad
+2019-08-06 17:18:08:176 The underlying provider failed on Open.
+2019-08-06 17:18:08:176 尝试与OPC Server建立连接
+2019-08-06 17:18:08:176 The underlying provider failed on Open.
+2019-08-06 17:18:08:176 与OPC Server建立连接成功
+2019-08-06 17:18:09:692 Bad
+2019-08-06 17:18:12:692 Value cannot be null.
+Parameter name: first
+2019-08-06 17:18:12:692 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:18:15:693 Bad
+2019-08-06 17:18:18:693 Object reference not set to an instance of an object.
+2019-08-06 17:18:21:693 Bad
+2019-08-06 17:18:24:693 Object reference not set to an instance of an object.
+2019-08-06 17:18:27:694 Bad
+2019-08-06 17:18:57:197 The underlying provider failed on Open.
+2019-08-06 17:18:57:197 断开与OPC Server的连接
+2019-08-06 17:19:00:775 Bad
+2019-08-06 17:19:04:207 Bad
+2019-08-06 17:19:07:630 Bad
+2019-08-06 17:19:11:052 Bad
+2019-08-06 17:19:13:083 The underlying provider failed on Open.
+2019-08-06 17:19:13:083 尝试与OPC Server建立连接
+2019-08-06 17:19:14:474 Bad
+2019-08-06 17:19:17:896 Bad
+2019-08-06 17:19:21:318 Bad
+2019-08-06 17:19:24:741 Bad
+2019-08-06 17:19:28:163 Bad
+2019-08-06 17:19:28:444 The underlying provider failed on Open.
+2019-08-06 17:19:28:444 与OPC Server建立连接成功
+2019-08-06 17:19:31:460 Object reference not set to an instance of an object.
+2019-08-06 17:19:34:460 Bad
+2019-08-06 17:19:37:461 Object reference not set to an instance of an object.
+2019-08-06 17:19:40:461 Bad
+2019-08-06 17:19:43:461 Object reference not set to an instance of an object.
+2019-08-06 17:19:43:461 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:19:46:462 Bad
+2019-08-06 17:20:17:355 The underlying provider failed on Open.
+2019-08-06 17:20:17:355 断开与OPC Server的连接
+2019-08-06 17:20:21:168 Bad
+2019-08-06 17:20:24:590 Bad
+2019-08-06 17:20:28:013 Bad
+2019-08-06 17:20:31:435 Bad
+2019-08-06 17:20:33:216 The underlying provider failed on Open.
+2019-08-06 17:20:33:216 尝试与OPC Server建立连接
+2019-08-06 17:20:33:216 The underlying provider failed on Open.
+2019-08-06 17:20:33:216 与OPC Server建立连接成功
+2019-08-06 17:20:34:857 Bad
+2019-08-06 17:20:37:857 Object reference not set to an instance of an object.
+2019-08-06 17:20:37:857 Unable to cast object of type 'System.String' to type 'System.Byte[]'.
+2019-08-06 17:20:40:858 Bad
+2019-08-06 17:20:43:858 Object reference not set to an instance of an object.
+2019-08-06 17:20:46:858 Bad
+2019-08-06 17:20:49:859 Object reference not set to an instance of an object.
+2019-08-06 17:20:52:859 Bad

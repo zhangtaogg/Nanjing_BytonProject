@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BytonModelStoreContainer" CdmEntityContainer="BytonEntities">
+    <EntitySetMapping Name="dev_diagnosisRecord">
+      <EntityTypeMapping TypeName="BytonModel.dev_diagnosisRecord">
+        <MappingFragment StoreEntitySet="dev_diagnosisRecord">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="StationName" ColumnName="StationName" />
+          <ScalarProperty Name="RFID_VendorName" ColumnName="RFID_VendorName" />
+          <ScalarProperty Name="RFID_ProductName" ColumnName="RFID_ProductName" />
+          <ScalarProperty Name="RFID_SerialNumber" ColumnName="RFID_SerialNumber" />
+          <ScalarProperty Name="RFID_HardwareVersion" ColumnName="RFID_HardwareVersion" />
+          <ScalarProperty Name="RFID_FirmwareVersion" ColumnName="RFID_FirmwareVersion" />
+          <ScalarProperty Name="RFID_DeviceStatus" ColumnName="RFID_DeviceStatus" />
+          <ScalarProperty Name="RFID_Mode" ColumnName="RFID_Mode" />
+          <ScalarProperty Name="RFID_MemoryArea" ColumnName="RFID_MemoryArea" />
+          <ScalarProperty Name="RFID_BytesNumber" ColumnName="RFID_BytesNumber" />
+          <ScalarProperty Name="RFID_StartAddress" ColumnName="RFID_StartAddress" />
+          <ScalarProperty Name="RFID_TagType" ColumnName="RFID_TagType" />
+          <ScalarProperty Name="RFID_AutoStart" ColumnName="RFID_AutoStart" />
+          <ScalarProperty Name="R200_VendorName" ColumnName="R200_VendorName" />
+          <ScalarProperty Name="R200_ProductName" ColumnName="R200_ProductName" />
+          <ScalarProperty Name="R200_SerialNumber" ColumnName="R200_SerialNumber" />
+          <ScalarProperty Name="R200_HardwareVersion" ColumnName="R200_HardwareVersion" />
+          <ScalarProperty Name="R200_FirmwareVersion" ColumnName="R200_FirmwareVersion" />
+          <ScalarProperty Name="R200_DeviceStatus" ColumnName="R200_DeviceStatus" />
+          <ScalarProperty Name="R200_TemperatureIndicate" ColumnName="R200_TemperatureIndicate" />
+          <ScalarProperty Name="R200_OperationHours" ColumnName="R200_OperationHours" />
+          <ScalarProperty Name="ICE_OrderID" ColumnName="ICE_OrderID" />
+          <ScalarProperty Name="ICE_SerialNumber" ColumnName="ICE_SerialNumber" />
+          <ScalarProperty Name="ICE_HardwareVersion" ColumnName="ICE_HardwareVersion" />
+          <ScalarProperty Name="ICE_SoftwareVersion" ColumnName="ICE_SoftwareVersion" />
+          <ScalarProperty Name="ICE_IMVersion" ColumnName="ICE_IMVersion" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dev_eventRecord">
+      <EntityTypeMapping TypeName="BytonModel.dev_eventRecord">
+        <MappingFragment StoreEntitySet="dev_eventRecord">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="EventName" ColumnName="EventName" />
+          <ScalarProperty Name="Excutor" ColumnName="Excutor" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dev_productionRecord">
+      <EntityTypeMapping TypeName="BytonModel.dev_productionRecord">
+        <MappingFragment StoreEntitySet="dev_productionRecord">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="StationName" ColumnName="StationName" />
+          <ScalarProperty Name="TagID" ColumnName="TagID" />
+          <ScalarProperty Name="BoxID" ColumnName="BoxID" />
+          <ScalarProperty Name="BoxType" ColumnName="BoxType" />
+          <ScalarProperty Name="Distance" ColumnName="Distance" />
+          <ScalarProperty Name="TagPositon" ColumnName="TagPositon" />
+          <ScalarProperty Name="RFIDConnectionStatus" ColumnName="RFIDConnectionStatus" />
+          <ScalarProperty Name="R200ConnectionStatus" ColumnName="R200ConnectionStatus" />
+          <ScalarProperty Name="ASRSReturnCode" ColumnName="ASRSReturnCode" />
+          <ScalarProperty Name="ASRSReadSignal" ColumnName="ASRSReadSignal" />
+          <ScalarProperty Name="RFID_ReturnCode" ColumnName="RFID_ReturnCode" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dev_realTimeStationData">
+      <EntityTypeMapping TypeName="BytonModel.dev_realTimeStationData">
+        <MappingFragment StoreEntitySet="dev_realTimeStationData">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="StationName" ColumnName="StationName" />
+          <ScalarProperty Name="F_TagID" ColumnName="F_TagID" />
+          <ScalarProperty Name="F_BoxID" ColumnName="F_BoxID" />
+          <ScalarProperty Name="F_BoxType" ColumnName="F_BoxType" />
+          <ScalarProperty Name="F_R200Distance" ColumnName="F_R200Distance" />
+          <ScalarProperty Name="B_TagID" ColumnName="B_TagID" />
+          <ScalarProperty Name="B_BoxID" ColumnName="B_BoxID" />
+          <ScalarProperty Name="B_BoxType" ColumnName="B_BoxType" />
+          <ScalarProperty Name="B_R200Distance" ColumnName="B_R200Distance" />
+          <ScalarProperty Name="RFIDConnectionStatus" ColumnName="RFIDConnectionStatus" />
+          <ScalarProperty Name="R200ConnectionStatus" ColumnName="R200ConnectionStatus" />
+          <ScalarProperty Name="ASRSReturnCode" ColumnName="ASRSReturnCode" />
+          <ScalarProperty Name="ASRSReadSignal" ColumnName="ASRSReadSignal" />
+          <ScalarProperty Name="RFID_ReturnCode" ColumnName="RFID_ReturnCode" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="RFID_ProductName" ColumnName="RFID_ProductName" />
+          <ScalarProperty Name="RFID_SerialNumber" ColumnName="RFID_SerialNumber" />
+          <ScalarProperty Name="RFID_HardwareVersion" ColumnName="RFID_HardwareVersion" />
+          <ScalarProperty Name="RFID_FirmwareVersion" ColumnName="RFID_FirmwareVersion" />
+          <ScalarProperty Name="R200_ProductName" ColumnName="R200_ProductName" />
+          <ScalarProperty Name="R200_SerialNumber" ColumnName="R200_SerialNumber" />
+          <ScalarProperty Name="R200_HardwareVersion" ColumnName="R200_HardwareVersion" />
+          <ScalarProperty Name="R200_FirmwareVersion" ColumnName="R200_FirmwareVersion" />
+          <ScalarProperty Name="ModifiedDateForDiagnosis" ColumnName="ModifiedDateForDiagnosis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dev_stationReadRecord">
+      <EntityTypeMapping TypeName="BytonModel.dev_stationReadRecord">
+        <MappingFragment StoreEntitySet="dev_stationReadRecord">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="StationName" ColumnName="StationName" />
+          <ScalarProperty Name="BoxID" ColumnName="BoxID" />
+          <ScalarProperty Name="F_TagReadStatus" ColumnName="F_TagReadStatus" />
+          <ScalarProperty Name="B_TagReadStatus" ColumnName="B_TagReadStatus" />
+          <ScalarProperty Name="TagReadResult" ColumnName="TagReadResult" />
+          <ScalarProperty Name="StatusPrompt" ColumnName="StatusPrompt" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dev_sys_status">
+      <EntityTypeMapping TypeName="BytonModel.dev_sys_status">
+        <MappingFragment StoreEntitySet="dev_sys_status">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sys_ASRS_PLC" ColumnName="sys_ASRS_PLC" />
+          <ScalarProperty Name="sys_daemon_status" ColumnName="sys_daemon_status" />
+          <ScalarProperty Name="sys_PLC_status" ColumnName="sys_PLC_status" />
+          <ScalarProperty Name="ICE_1_status" ColumnName="ICE_1_status" />
+          <ScalarProperty Name="ICE_2_status" ColumnName="ICE_2_status" />
+          <ScalarProperty Name="ICE_3_status" ColumnName="ICE_3_status" />
+          <ScalarProperty Name="ICE_4_status" ColumnName="ICE_4_status" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dev_sys_statusRecord">
+      <EntityTypeMapping TypeName="BytonModel.dev_sys_statusRecord">
+        <MappingFragment StoreEntitySet="dev_sys_statusRecord">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sys_ASRS_PLC" ColumnName="sys_ASRS_PLC" />
+          <ScalarProperty Name="sys_daemon_status" ColumnName="sys_daemon_status" />
+          <ScalarProperty Name="sys_PLC_status" ColumnName="sys_PLC_status" />
+          <ScalarProperty Name="ICE_1_status" ColumnName="ICE_1_status" />
+          <ScalarProperty Name="ICE_2_status" ColumnName="ICE_2_status" />
+          <ScalarProperty Name="ICE_3_status" ColumnName="ICE_3_status" />
+          <ScalarProperty Name="ICE_4_status" ColumnName="ICE_4_status" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

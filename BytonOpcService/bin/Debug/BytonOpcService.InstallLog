@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Users\tazhang\source\repos\BytonOpcService\BytonOpcService\bin\Debug\BytonOpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\tazhang\source\repos\BytonOpcService\BytonOpcService\bin\Debug\BytonOpcService.InstallLog
+   assemblypath = C:\Users\tazhang\source\repos\BytonOpcService\BytonOpcService\bin\Debug\BytonOpcService.exe
+Installing service BytonOpcService...
+Service BytonOpcService has been successfully installed.
+Creating EventLog source BytonOpcService in log Application...
+Committing assembly 'C:\Users\tazhang\source\repos\BytonOpcService\BytonOpcService\bin\Debug\BytonOpcService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\tazhang\source\repos\BytonOpcService\BytonOpcService\bin\Debug\BytonOpcService.InstallLog
+   assemblypath = C:\Users\tazhang\source\repos\BytonOpcService\BytonOpcService\bin\Debug\BytonOpcService.exe
