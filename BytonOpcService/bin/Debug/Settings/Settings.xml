@@ -40,6 +40,9 @@
 <IPCReceiveResult>ns=2;s=Byton.RFIDPro.IPCReceiveResult</IPCReceiveResult>
 </WriteNodeId>
 
+<ReloadServer>
+<FilePath></FilePath>
+</ReloadServer>
 <DataType1>list&lt;byte&gt;</DataType1>
 
 <Access>R</Access>
