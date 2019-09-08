@@ -1,0 +1,103 @@
+[33mcommit ca7137c09b442e906576c22996bc3e36ebec3f5c[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Author: zhangtaogg <forztemail@163.com>
+Date:   Sun Sep 8 20:12:52 2019 +0800
+
+    create 1.txt
+
+[33mcommit 173a35f75d1cd7f386d4e12220c3ae34c2368f24[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 6e8e905 521f34a
+Author: zhangtaogg <forztemail@163.com>
+Date:   Sun Sep 8 17:50:49 2019 +0800
+
+    Merge branch 'master' of github.com:zhangtaogg/Nanjing_BytonProject
+
+[33mcommit 521f34a0f5a03d47c87b2ea8b89133821956828c[m
+Merge: f8f219a 97f22b6
+Author: zhangtaogg <forztemail@163.com>
+Date:   Fri Sep 6 11:54:35 2019 +0800
+
+    Merge branch 'master' of github.com:zhangtaogg/Nanjing_BytonProject
+
+[33mcommit f8f219a2fa43d3f2f8dbab5fb5a802b482dab611[m
+Author: zhangtaogg <forztemail@163.com>
+Date:   Fri Sep 6 11:51:53 2019 +0800
+
+    Upload Project file
+
+[33mcommit e5fa7c2674ca85319624f61c8fccef6d3cd3b362[m
+Author: zhangtao <tazhang@AP.P-F.BIZ>
+Date:   Wed Sep 4 09:55:14 2019 +0800
+
+    add Byton Project file
+
+[33mcommit 6e8e90568bb8ba824f42cce153355370d246865a[m
+Author: zhangtaogg <forztemail@163.com>
+Date:   Tue Sep 3 22:17:48 2019 +0800
+
+    add agv demo to tag v1.0.0
+
+[33mcommit 97f22b6b0c7a244ce274bdcc518df9a76d5bfe03[m[33m ([m[1;33mtag: v1.0.0[m[33m, [m[1;32mbranch_v1.0.0[m[33m)[m
+Author: zhangtaogg <forztemail@163.com>
+Date:   Tue Sep 3 20:04:03 2019 +0800
+
+    delete sourceCode of agvDemo
+
+[33mcommit f3b6eb6043f75d2ec7c8e8530bdc3328bf68b61b[m
+Author: zhangtaogg <forztemail@163.com>
+Date:   Tue Sep 3 20:00:40 2019 +0800
+
+    delete sourceCode of agvDemo
+
+[33mcommit 999c58315b9bb8e7cb60ab6b5f4ba30169cee55a[m
+Author: zhangtaogg <forztemail@163.com>
+Date:   Tue Sep 3 19:56:44 2019 +0800
+
+    test
+
+[33mcommit 0a293af408a669fd6700ba77279f04d74218521f[m
+Author: zhangtao <tazhang@AP.P-F.BIZ>
+Date:   Tue Sep 3 17:06:53 2019 +0800
+
+    delete directory BytonOpcService
+
+[33mcommit 193aa80d618339e3abc5f05ee41fb8cd66a968f1[m
+Author: zhangtao <tazhang@AP.P-F.BIZ>
+Date:   Tue Sep 3 16:40:46 2019 +0800
+
+    Byton OpcService Project file
+
+[33mcommit dd2a8f5e357cdef1baf77e15c2bf460d33e5e15c[m
+Author: zhangtao <tazhang@AP.P-F.BIZ>
+Date:   Tue Sep 3 16:03:36 2019 +0800
+
+    删除了BytonOpcService
+
+[33mcommit eb935f5255034253ec08d78eb95abb958bd178fd[m
+Author: zhangtao <tazhang@AP.P-F.BIZ>
+Date:   Tue Sep 3 15:32:48 2019 +0800
+
+    Byton Project File
+
+[33mcommit 294e92a0a02ee0767cd098ddf463ba8ad2e5a01e[m
+Author: zhangtao <tazhang@AP.P-F.BIZ>
+Date:   Tue Sep 3 14:37:44 2019 +0800
+
+    test document
+
+[33mcommit beadff32f7225312c08464b39a7e1d5f3780d704[m
+Author: zhangtaogg <50974980+zhangtaogg@users.noreply.github.com>
+Date:   Tue Sep 3 12:55:25 2019 +0800
+
+    Initial commit
+
+[33mcommit a87f5bd84b19266766e223a4d8aec14c546f2334[m
+Author: zhangtao <tazhang@AP.P-F.BIZ>
+Date:   Tue Aug 27 11:13:36 2019 +0800
+
+    Add project files.
+
+[33mcommit f713f0d96d0e3119302359add372fc44e30c04c0[m
+Author: zhangtao <tazhang@1807CNN475>
+Date:   Tue Aug 27 11:13:32 2019 +0800
+
+    Add .gitignore and .gitattributes.

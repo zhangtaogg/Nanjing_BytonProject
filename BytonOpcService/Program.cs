@@ -14,6 +14,7 @@ namespace BytonOpcService
         /// </summary>
         static void Main()
         {
+            //test git bash
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {

@@ -106,3 +106,6 @@ C:\Users\tazhang\source\repos\BytonOpcService\BytonOpcService\bin\Debug\System.T
 C:\Users\tazhang\source\repos\BytonOpcService\BytonOpcService\obj\Debug\BytonOpcService.csproj.CopyComplete
 C:\Users\tazhang\source\repos\BytonOpcService\BytonOpcService\obj\Debug\BytonOpcService.exe
 C:\Users\tazhang\source\repos\BytonOpcService\BytonOpcService\obj\Debug\BytonOpcService.pdb
+C:\Users\email\Desktop\Git\Nanjing_BytonProject\BytonOpcService\bin\Debug\BytonOpcService.exe.config
+C:\Users\email\Desktop\Git\Nanjing_BytonProject\BytonOpcService\obj\Debug\BytonOpcService.exe
+C:\Users\email\Desktop\Git\Nanjing_BytonProject\BytonOpcService\obj\Debug\BytonOpcService.pdb
