@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="BytonModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="dev_diagnosisRecord">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StationName" Type="varchar" MaxLength="50" />
+          <Property Name="RFID_VendorName" Type="varchar" MaxLength="50" />
+          <Property Name="RFID_ProductName" Type="varchar" MaxLength="50" />
+          <Property Name="RFID_SerialNumber" Type="varchar" MaxLength="50" />
+          <Property Name="RFID_HardwareVersion" Type="varchar" MaxLength="50" />
+          <Property Name="RFID_FirmwareVersion" Type="varchar" MaxLength="50" />
+          <Property Name="RFID_DeviceStatus" Type="varchar" MaxLength="50" />
+          <Property Name="RFID_Mode" Type="varchar" MaxLength="50" />
+          <Property Name="RFID_MemoryArea" Type="varchar" MaxLength="50" />
+          <Property Name="RFID_BytesNumber" Type="varchar" MaxLength="50" />
+          <Property Name="RFID_StartAddress" Type="varchar" MaxLength="50" />
+          <Property Name="RFID_TagType" Type="varchar" MaxLength="50" />
+          <Property Name="RFID_AutoStart" Type="varchar" MaxLength="50" />
+          <Property Name="R200_VendorName" Type="varchar" MaxLength="50" />
+          <Property Name="R200_ProductName" Type="varchar" MaxLength="50" />
+          <Property Name="R200_SerialNumber" Type="varchar" MaxLength="50" />
+          <Property Name="R200_HardwareVersion" Type="varchar" MaxLength="50" />
+          <Property Name="R200_FirmwareVersion" Type="varchar" MaxLength="50" />
+          <Property Name="R200_DeviceStatus" Type="varchar" MaxLength="50" />
+          <Property Name="R200_TemperatureIndicate" Type="varchar" MaxLength="50" />
+          <Property Name="R200_OperationHours" Type="varchar" MaxLength="50" />
+          <Property Name="ICE_OrderID" Type="varchar" MaxLength="50" />
+          <Property Name="ICE_SerialNumber" Type="varchar" MaxLength="50" />
+          <Property Name="ICE_HardwareVersion" Type="varchar" MaxLength="50" />
+          <Property Name="ICE_SoftwareVersion" Type="varchar" MaxLength="50" />
+          <Property Name="ICE_IMVersion" Type="varchar" MaxLength="50" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="ModifiedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="dev_eventRecord">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EventName" Type="varchar" MaxLength="50" />
+          <Property Name="Excutor" Type="varchar" MaxLength="50" />
+          <Property Name="CreateDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="dev_productionRecord">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StationName" Type="varchar" MaxLength="50" />
+          <Property Name="TagID" Type="varchar" MaxLength="50" />
+          <Property Name="BoxID" Type="varchar" MaxLength="50" />
+          <Property Name="BoxType" Type="varchar" MaxLength="50" />
+          <Property Name="Distance" Type="varchar" MaxLength="50" />
+          <Property Name="TagPositon" Type="varchar" MaxLength="50" />
+          <Property Name="RFIDConnectionStatus" Type="varchar" MaxLength="50" />
+          <Property Name="R200ConnectionStatus" Type="varchar" MaxLength="50" />
+          <Property Name="ASRSReturnCode" Type="varchar" MaxLength="50" />
+          <Property Name="ASRSReadSignal" Type="varchar" MaxLength="50" />
+          <Property Name="RFID_ReturnCode" Type="varchar" MaxLength="50" />
+          <Property Name="Remark" Type="varchar" MaxLength="50" />
+          <Property Name="ModifiedBy" Type="varchar" MaxLength="50" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="ModifiedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="dev_realTimeStationData">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StationName" Type="varchar" MaxLength="50" />
+          <Property Name="F_TagID" Type="varchar" MaxLength="50" />
+          <Property Name="F_BoxID" Type="varchar" MaxLength="50" />
+          <Property Name="F_BoxType" Type="varchar" MaxLength="10" />
+          <Property Name="F_R200Distance" Type="varchar" MaxLength="10" />
+          <Property Name="B_TagID" Type="varchar" MaxLength="50" />
+          <Property Name="B_BoxID" Type="varchar" MaxLength="50" />
+          <Property Name="B_BoxType" Type="varchar" MaxLength="10" />
+          <Property Name="B_R200Distance" Type="varchar" MaxLength="10" />
+          <Property Name="RFIDConnectionStatus" Type="varchar" MaxLength="20" />
+          <Property Name="R200ConnectionStatus" Type="varchar" MaxLength="20" />
+          <Property Name="ASRSReturnCode" Type="varchar" MaxLength="20" />
+          <Property Name="ASRSReadSignal" Type="varchar" MaxLength="10" />
+          <Property Name="RFID_ReturnCode" Type="varchar" MaxLength="10" />
+          <Property Name="Remark" Type="varchar" MaxLength="50" />
+          <Property Name="ModifiedDate" Type="datetime" />
+          <Property Name="RFID_ProductName" Type="varchar" MaxLength="64" />
+          <Property Name="RFID_SerialNumber" Type="varchar" MaxLength="64" />
+          <Property Name="RFID_HardwareVersion" Type="varchar" MaxLength="64" />
+          <Property Name="RFID_FirmwareVersion" Type="varchar" MaxLength="64" />
+          <Property Name="R200_ProductName" Type="varchar" MaxLength="64" />
+          <Property Name="R200_SerialNumber" Type="varchar" MaxLength="64" />
+          <Property Name="R200_HardwareVersion" Type="varchar" MaxLength="64" />
+          <Property Name="R200_FirmwareVersion" Type="varchar" MaxLength="64" />
+          <Property Name="ModifiedDateForDiagnosis" Type="datetime" />
+        </EntityType>
+        <EntityType Name="dev_stationReadRecord">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StationName" Type="varchar" MaxLength="50" />
+          <Property Name="BoxID" Type="varchar" MaxLength="20" />
+          <Property Name="F_TagReadStatus" Type="varchar" MaxLength="10" />
+          <Property Name="B_TagReadStatus" Type="varchar" MaxLength="10" />
+          <Property Name="TagReadResult" Type="varchar" MaxLength="10" />
+          <Property Name="StatusPrompt" Type="varchar" MaxLength="50" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="ModifiedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="dev_sys_status">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="sys_ASRS_PLC" Type="varchar" MaxLength="10" />
+          <Property Name="sys_daemon_status" Type="varchar" MaxLength="10" />
+          <Property Name="sys_PLC_status" Type="varchar" MaxLength="10" />
+          <Property Name="ICE_1_status" Type="varchar" MaxLength="10" />
+          <Property Name="ICE_2_status" Type="varchar" MaxLength="10" />
+          <Property Name="ICE_3_status" Type="varchar" MaxLength="10" />
+          <Property Name="ICE_4_status" Type="varchar" MaxLength="10" />
+          <Property Name="ModifiedDate" Type="datetime" />
+          <Property Name="CreateDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="dev_sys_statusRecord">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="sys_ASRS_PLC" Type="varchar" MaxLength="10" />
+          <Property Name="sys_daemon_status" Type="varchar" MaxLength="10" />
+          <Property Name="sys_PLC_status" Type="varchar" MaxLength="10" />
+          <Property Name="ICE_1_status" Type="varchar" MaxLength="10" />
+          <Property Name="ICE_2_status" Type="varchar" MaxLength="10" />
+          <Property Name="ICE_3_status" Type="varchar" MaxLength="10" />
+          <Property Name="ICE_4_status" Type="varchar" MaxLength="10" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="ModifiedDate" Type="datetime" />
+        </EntityType>
+        <EntityContainer Name="BytonModelStoreContainer">
+          <EntitySet Name="dev_diagnosisRecord" EntityType="Self.dev_diagnosisRecord" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="dev_eventRecord" EntityType="Self.dev_eventRecord" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="dev_productionRecord" EntityType="Self.dev_productionRecord" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="dev_realTimeStationData" EntityType="Self.dev_realTimeStationData" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="dev_stationReadRecord" EntityType="Self.dev_stationReadRecord" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="dev_sys_status" EntityType="Self.dev_sys_status" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="dev_sys_statusRecord" EntityType="Self.dev_sys_statusRecord" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BytonModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="dev_diagnosisRecord">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StationName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_VendorName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_ProductName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_SerialNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_HardwareVersion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_FirmwareVersion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_DeviceStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_Mode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_MemoryArea" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_BytesNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_StartAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_TagType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_AutoStart" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="R200_VendorName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="R200_ProductName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="R200_SerialNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="R200_HardwareVersion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="R200_FirmwareVersion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="R200_DeviceStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="R200_TemperatureIndicate" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="R200_OperationHours" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ICE_OrderID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ICE_SerialNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ICE_HardwareVersion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ICE_SoftwareVersion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ICE_IMVersion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CreateDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="dev_eventRecord">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EventName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Excutor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CreateDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="dev_productionRecord">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StationName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="TagID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BoxID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BoxType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Distance" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="TagPositon" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RFIDConnectionStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="R200ConnectionStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ASRSReturnCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ASRSReadSignal" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_ReturnCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Remark" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ModifiedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CreateDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="dev_realTimeStationData">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StationName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="F_TagID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="F_BoxID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="F_BoxType" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="F_R200Distance" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="B_TagID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="B_BoxID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="B_BoxType" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="B_R200Distance" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="RFIDConnectionStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="R200ConnectionStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="ASRSReturnCode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="ASRSReadSignal" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_ReturnCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Remark" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+          <Property Name="RFID_ProductName" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_SerialNumber" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_HardwareVersion" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="RFID_FirmwareVersion" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="R200_ProductName" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="R200_SerialNumber" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="R200_HardwareVersion" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="R200_FirmwareVersion" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="ModifiedDateForDiagnosis" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="dev_stationReadRecord">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StationName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BoxID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="F_TagReadStatus" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="B_TagReadStatus" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="TagReadResult" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="StatusPrompt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CreateDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="dev_sys_status">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="sys_ASRS_PLC" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="sys_daemon_status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="sys_PLC_status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ICE_1_status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ICE_2_status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ICE_3_status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ICE_4_status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+          <Property Name="CreateDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="dev_sys_statusRecord">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="sys_ASRS_PLC" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="sys_daemon_status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="sys_PLC_status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ICE_1_status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ICE_2_status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ICE_3_status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ICE_4_status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CreateDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityContainer Name="BytonEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="dev_diagnosisRecord" EntityType="Self.dev_diagnosisRecord" />
+          <EntitySet Name="dev_eventRecord" EntityType="Self.dev_eventRecord" />
+          <EntitySet Name="dev_productionRecord" EntityType="Self.dev_productionRecord" />
+          <EntitySet Name="dev_realTimeStationData" EntityType="Self.dev_realTimeStationData" />
+          <EntitySet Name="dev_stationReadRecord" EntityType="Self.dev_stationReadRecord" />
+          <EntitySet Name="dev_sys_status" EntityType="Self.dev_sys_status" />
+          <EntitySet Name="dev_sys_statusRecord" EntityType="Self.dev_sys_statusRecord" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BytonModelStoreContainer" CdmEntityContainer="BytonEntities">
+          <EntitySetMapping Name="dev_diagnosisRecord">
+            <EntityTypeMapping TypeName="BytonModel.dev_diagnosisRecord">
+              <MappingFragment StoreEntitySet="dev_diagnosisRecord">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="StationName" ColumnName="StationName" />
+                <ScalarProperty Name="RFID_VendorName" ColumnName="RFID_VendorName" />
+                <ScalarProperty Name="RFID_ProductName" ColumnName="RFID_ProductName" />
+                <ScalarProperty Name="RFID_SerialNumber" ColumnName="RFID_SerialNumber" />
+                <ScalarProperty Name="RFID_HardwareVersion" ColumnName="RFID_HardwareVersion" />
+                <ScalarProperty Name="RFID_FirmwareVersion" ColumnName="RFID_FirmwareVersion" />
+                <ScalarProperty Name="RFID_DeviceStatus" ColumnName="RFID_DeviceStatus" />
+                <ScalarProperty Name="RFID_Mode" ColumnName="RFID_Mode" />
+                <ScalarProperty Name="RFID_MemoryArea" ColumnName="RFID_MemoryArea" />
+                <ScalarProperty Name="RFID_BytesNumber" ColumnName="RFID_BytesNumber" />
+                <ScalarProperty Name="RFID_StartAddress" ColumnName="RFID_StartAddress" />
+                <ScalarProperty Name="RFID_TagType" ColumnName="RFID_TagType" />
+                <ScalarProperty Name="RFID_AutoStart" ColumnName="RFID_AutoStart" />
+                <ScalarProperty Name="R200_VendorName" ColumnName="R200_VendorName" />
+                <ScalarProperty Name="R200_ProductName" ColumnName="R200_ProductName" />
+                <ScalarProperty Name="R200_SerialNumber" ColumnName="R200_SerialNumber" />
+                <ScalarProperty Name="R200_HardwareVersion" ColumnName="R200_HardwareVersion" />
+                <ScalarProperty Name="R200_FirmwareVersion" ColumnName="R200_FirmwareVersion" />
+                <ScalarProperty Name="R200_DeviceStatus" ColumnName="R200_DeviceStatus" />
+                <ScalarProperty Name="R200_TemperatureIndicate" ColumnName="R200_TemperatureIndicate" />
+                <ScalarProperty Name="R200_OperationHours" ColumnName="R200_OperationHours" />
+                <ScalarProperty Name="ICE_OrderID" ColumnName="ICE_OrderID" />
+                <ScalarProperty Name="ICE_SerialNumber" ColumnName="ICE_SerialNumber" />
+                <ScalarProperty Name="ICE_HardwareVersion" ColumnName="ICE_HardwareVersion" />
+                <ScalarProperty Name="ICE_SoftwareVersion" ColumnName="ICE_SoftwareVersion" />
+                <ScalarProperty Name="ICE_IMVersion" ColumnName="ICE_IMVersion" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dev_eventRecord">
+            <EntityTypeMapping TypeName="BytonModel.dev_eventRecord">
+              <MappingFragment StoreEntitySet="dev_eventRecord">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="EventName" ColumnName="EventName" />
+                <ScalarProperty Name="Excutor" ColumnName="Excutor" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dev_productionRecord">
+            <EntityTypeMapping TypeName="BytonModel.dev_productionRecord">
+              <MappingFragment StoreEntitySet="dev_productionRecord">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="StationName" ColumnName="StationName" />
+                <ScalarProperty Name="TagID" ColumnName="TagID" />
+                <ScalarProperty Name="BoxID" ColumnName="BoxID" />
+                <ScalarProperty Name="BoxType" ColumnName="BoxType" />
+                <ScalarProperty Name="Distance" ColumnName="Distance" />
+                <ScalarProperty Name="TagPositon" ColumnName="TagPositon" />
+                <ScalarProperty Name="RFIDConnectionStatus" ColumnName="RFIDConnectionStatus" />
+                <ScalarProperty Name="R200ConnectionStatus" ColumnName="R200ConnectionStatus" />
+                <ScalarProperty Name="ASRSReturnCode" ColumnName="ASRSReturnCode" />
+                <ScalarProperty Name="ASRSReadSignal" ColumnName="ASRSReadSignal" />
+                <ScalarProperty Name="RFID_ReturnCode" ColumnName="RFID_ReturnCode" />
+                <ScalarProperty Name="Remark" ColumnName="Remark" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dev_realTimeStationData">
+            <EntityTypeMapping TypeName="BytonModel.dev_realTimeStationData">
+              <MappingFragment StoreEntitySet="dev_realTimeStationData">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="StationName" ColumnName="StationName" />
+                <ScalarProperty Name="F_TagID" ColumnName="F_TagID" />
+                <ScalarProperty Name="F_BoxID" ColumnName="F_BoxID" />
+                <ScalarProperty Name="F_BoxType" ColumnName="F_BoxType" />
+                <ScalarProperty Name="F_R200Distance" ColumnName="F_R200Distance" />
+                <ScalarProperty Name="B_TagID" ColumnName="B_TagID" />
+                <ScalarProperty Name="B_BoxID" ColumnName="B_BoxID" />
+                <ScalarProperty Name="B_BoxType" ColumnName="B_BoxType" />
+                <ScalarProperty Name="B_R200Distance" ColumnName="B_R200Distance" />
+                <ScalarProperty Name="RFIDConnectionStatus" ColumnName="RFIDConnectionStatus" />
+                <ScalarProperty Name="R200ConnectionStatus" ColumnName="R200ConnectionStatus" />
+                <ScalarProperty Name="ASRSReturnCode" ColumnName="ASRSReturnCode" />
+                <ScalarProperty Name="ASRSReadSignal" ColumnName="ASRSReadSignal" />
+                <ScalarProperty Name="RFID_ReturnCode" ColumnName="RFID_ReturnCode" />
+                <ScalarProperty Name="Remark" ColumnName="Remark" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="RFID_ProductName" ColumnName="RFID_ProductName" />
+                <ScalarProperty Name="RFID_SerialNumber" ColumnName="RFID_SerialNumber" />
+                <ScalarProperty Name="RFID_HardwareVersion" ColumnName="RFID_HardwareVersion" />
+                <ScalarProperty Name="RFID_FirmwareVersion" ColumnName="RFID_FirmwareVersion" />
+                <ScalarProperty Name="R200_ProductName" ColumnName="R200_ProductName" />
+                <ScalarProperty Name="R200_SerialNumber" ColumnName="R200_SerialNumber" />
+                <ScalarProperty Name="R200_HardwareVersion" ColumnName="R200_HardwareVersion" />
+                <ScalarProperty Name="R200_FirmwareVersion" ColumnName="R200_FirmwareVersion" />
+                <ScalarProperty Name="ModifiedDateForDiagnosis" ColumnName="ModifiedDateForDiagnosis" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dev_stationReadRecord">
+            <EntityTypeMapping TypeName="BytonModel.dev_stationReadRecord">
+              <MappingFragment StoreEntitySet="dev_stationReadRecord">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="StationName" ColumnName="StationName" />
+                <ScalarProperty Name="BoxID" ColumnName="BoxID" />
+                <ScalarProperty Name="F_TagReadStatus" ColumnName="F_TagReadStatus" />
+                <ScalarProperty Name="B_TagReadStatus" ColumnName="B_TagReadStatus" />
+                <ScalarProperty Name="TagReadResult" ColumnName="TagReadResult" />
+                <ScalarProperty Name="StatusPrompt" ColumnName="StatusPrompt" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dev_sys_status">
+            <EntityTypeMapping TypeName="BytonModel.dev_sys_status">
+              <MappingFragment StoreEntitySet="dev_sys_status">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="sys_ASRS_PLC" ColumnName="sys_ASRS_PLC" />
+                <ScalarProperty Name="sys_daemon_status" ColumnName="sys_daemon_status" />
+                <ScalarProperty Name="sys_PLC_status" ColumnName="sys_PLC_status" />
+                <ScalarProperty Name="ICE_1_status" ColumnName="ICE_1_status" />
+                <ScalarProperty Name="ICE_2_status" ColumnName="ICE_2_status" />
+                <ScalarProperty Name="ICE_3_status" ColumnName="ICE_3_status" />
+                <ScalarProperty Name="ICE_4_status" ColumnName="ICE_4_status" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dev_sys_statusRecord">
+            <EntityTypeMapping TypeName="BytonModel.dev_sys_statusRecord">
+              <MappingFragment StoreEntitySet="dev_sys_statusRecord">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="sys_ASRS_PLC" ColumnName="sys_ASRS_PLC" />
+                <ScalarProperty Name="sys_daemon_status" ColumnName="sys_daemon_status" />
+                <ScalarProperty Name="sys_PLC_status" ColumnName="sys_PLC_status" />
+                <ScalarProperty Name="ICE_1_status" ColumnName="ICE_1_status" />
+                <ScalarProperty Name="ICE_2_status" ColumnName="ICE_2_status" />
+                <ScalarProperty Name="ICE_3_status" ColumnName="ICE_3_status" />
+                <ScalarProperty Name="ICE_4_status" ColumnName="ICE_4_status" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
